@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/box">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
                 android:id="@+id/profile_dialog_circle" />
 
             <TextView
+                android:id="@+id/name_txt"
                 android:layout_marginTop="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,6 +37,7 @@
                 android:textColor="@android:color/white" />
 
             <TextView
+                android:id="@+id/intro_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Introduce message"
